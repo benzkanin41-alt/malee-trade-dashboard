@@ -1,0 +1,19 @@
+{
+  "sourceWorkbook": "Malee APR 69.xlsx",
+  "sourceWorkbookModified": "2026-06-14 21:08:54",
+  "generatedAt": "2026-06-14 21:13:10",
+  "sheetCount": 6,
+  "includedSheets": [
+    "ผลไม้กระป๋อง(Month)",
+    "ผลไม้กระป๋อง(Q)",
+    "ยอดส่งออกน้ำมะพร้าว",
+    "น้ำผลไม้",
+    "น้ำผลไม้รายเดือน",
+    "นม"
+  ],
+  "excludedSheets": [
+    "Reference",
+    "Sheet1"
+  ],
+  "onlinePrivacyNote": "Public GitHub Pages copy omits the local D: workbook path."
+}
