@@ -1,8 +1,8 @@
 # MALEE Trade Dashboard Update Workflow
 
-Updated source workbook: `D:\OneDrive\stock\Valuation หุ้น\Malee\Malee MAY 69.xlsx`
+Updated source workbook: `D:\OneDrive\stock\Valuation หุ้น\Malee\Malee JUNE 69.xlsx`
 
-Source workbook modified: `2026-06-25 13:03:59`
+Source workbook modified: `2026-07-24 11:40:10`
 
 ## Monthly update steps
 
@@ -19,12 +19,12 @@ Source workbook modified: `2026-06-25 13:03:59`
 
 ## Source mapping currently used
 
-- `ผลไม้กระป๋อง(Month)`: monthly country rows and total rows from Excel columns B:CX.
+- `ผลไม้กระป๋อง(Month)`: monthly country rows and total rows from Excel columns B:CY.
 - `ผลไม้กระป๋อง(Q)`: quarterly total row from Excel columns B:AI.
-- `ยอดส่งออกน้ำมะพร้าว`: HS 20098920 rows, quantity/value/avg unit, Excel columns C:BC.
-- `น้ำผลไม้`: HS 2009 rows, quantity/value/ASP plus world less coconut formulas, Excel columns C:CM.
-- `น้ำผลไม้รายเดือน`: monthly country rows, other/total/coconut adjustment rows, Excel columns B:BN.
-- `นม`: monthly country rows and total rows, Excel columns B:BN.
+- `ยอดส่งออกน้ำมะพร้าว`: HS 20098920 rows, quantity/value/avg unit, Excel columns C:BD.
+- `น้ำผลไม้`: HS 2009 rows, quantity/value/ASP plus world less coconut formulas, Excel columns C:CN.
+- `น้ำผลไม้รายเดือน`: monthly country rows, other/total/coconut adjustment rows, Excel columns B:BO.
+- `นม`: monthly country rows and total rows, Excel columns B:BO.
 
 ## Calculation logic
 
