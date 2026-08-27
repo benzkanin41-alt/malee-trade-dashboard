@@ -401,6 +401,7 @@ button:hover,
 }
 
 .lower-grid {
+  min-width: 0;
   display: grid;
   grid-template-columns: 360px minmax(0, 1fr);
   gap: 12px;

@@ -432,8 +432,11 @@ function showTooltip(event, item, point, mode) {
     ${escapeHtml(mode === "value" ? formatNumber(value) : formatPercent(value))}<br>
     Value ${escapeHtml(formatNumber(item.values[point.index]))} | YoY ${escapeHtml(formatPercent(item.yoy[point.index]))} | MoM ${escapeHtml(formatPercent(item.mom[point.index]))}
   `;
-  els.tooltip.style.left = `${event.clientX + 12}px`;
-  els.tooltip.style.top = `${event.clientY + 12}px`;
+  const margin = 12;
+  const maxLeft = Math.max(margin, window.innerWidth - els.tooltip.offsetWidth - margin);
+  const maxTop = Math.max(margin, window.innerHeight - els.tooltip.offsetHeight - margin);
+  els.tooltip.style.left = `${Math.max(margin, Math.min(event.clientX + margin, maxLeft))}px`;
+  els.tooltip.style.top = `${Math.max(margin, Math.min(event.clientY + margin, maxTop))}px`;
 }
 
 function hideTooltip() {
