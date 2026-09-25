@@ -1,13 +1,13 @@
 # MALEE Trade Dashboard Update Workflow
 
-Updated source workbook: `D:\OneDrive\stock\Valuation หุ้น\Malee\Malee JULY 69.xlsx`
+Updated source workbook: `Malee AUGUST 69.xlsx`
 
-Source workbook modified: `2026-08-27 12:31:39`
+Source workbook modified: `2026-09-25 11:50:40`
 
 ## Monthly update steps
 
 1. Update the Excel workbook first using the MALEE MOC trade-report workflow.
-2. Save the new workbook in `D:\OneDrive\stock\Valuation หุ้น\Malee` with the latest month name.
+2. Save the new workbook in `<local MALEE workbook folder>` with the latest month name.
 3. Point `SOURCE_WORKBOOK` in `work/build_malee_dashboard_data.py` to the latest workbook path if the file name changed.
 4. Run `python -X utf8 .\work\build_malee_dashboard_data.py`.
 5. Start or refresh local host from `outputs\malee-apr69-dashboard`.
@@ -19,12 +19,12 @@ Source workbook modified: `2026-08-27 12:31:39`
 
 ## Source mapping currently used
 
-- `ผลไม้กระป๋อง(Month)`: monthly country rows and total rows from Excel columns B:CZ.
+- `ผลไม้กระป๋อง(Month)`: monthly country rows and total rows from Excel columns B:DA.
 - `ผลไม้กระป๋อง(Q)`: quarterly total row from Excel columns B:AI.
-- `ยอดส่งออกน้ำมะพร้าว`: HS 20098920 rows, quantity/value/avg unit, Excel columns C:BE.
-- `น้ำผลไม้`: HS 2009 rows, quantity/value/ASP plus world less coconut formulas, Excel columns C:CO.
-- `น้ำผลไม้รายเดือน`: monthly country rows, other/total/coconut adjustment rows, Excel columns B:BP.
-- `นม`: monthly country rows and total rows, Excel columns B:BP.
+- `ยอดส่งออกน้ำมะพร้าว`: HS 20098920 rows, quantity/value/avg unit, Excel columns C:BF.
+- `น้ำผลไม้`: HS 2009 rows, quantity/value/ASP plus world less coconut formulas, Excel columns C:CP.
+- `น้ำผลไม้รายเดือน`: monthly country rows, other/total/coconut adjustment rows, Excel columns B:BQ.
+- `นม`: monthly country rows and total rows, Excel columns B:BQ.
 
 ## Calculation logic
 
