@@ -2,7 +2,7 @@
 
 Updated source workbook: `Malee AUGUST 69.xlsx`
 
-Source workbook modified: `2026-09-25 11:50:40`
+Source workbook modified: `2026-09-25 12:14:26`
 
 ## Monthly update steps
 
@@ -20,7 +20,7 @@ Source workbook modified: `2026-09-25 11:50:40`
 ## Source mapping currently used
 
 - `ผลไม้กระป๋อง(Month)`: monthly country rows and total rows from Excel columns B:DA.
-- `ผลไม้กระป๋อง(Q)`: quarterly total row from Excel columns B:AI.
+- `ผลไม้กระป๋อง(Q)`: completed quarterly totals from the monthly quarter-total row 32, Excel columns B:AI. Add a quarter only after all three monthly values exist; Q3/2569 is still incomplete at August.
 - `ยอดส่งออกน้ำมะพร้าว`: HS 20098920 rows, quantity/value/avg unit, Excel columns C:BF.
 - `น้ำผลไม้`: HS 2009 rows, quantity/value/ASP plus world less coconut formulas, Excel columns C:CP.
 - `น้ำผลไม้รายเดือน`: monthly country rows, other/total/coconut adjustment rows, Excel columns B:BQ.
